@@ -1,4 +1,4 @@
-first = input("First: ")
-second = input("Second: ")
-sum = float(first) + int(second)
-print(sum)
+first = float(input("First: "))
+second = float(input("Second: "))
+sum = first + second
+print("Sum: " + str(sum))
